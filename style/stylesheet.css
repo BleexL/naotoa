@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: #9EC9CC;
+}
+
+.game-container{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.boat-container{
+    width: 144px;
+    height: 100%;
+    
+    background-color: #E8AD67;
+}
+
+.game-board{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+}
+
+.board-line{
+    display: flex;
+    gap: 4px;
+}
+
+.case {
+    width: 100px;
+    height: 100px;
+
+    background-color: #3783C1;
+}
+
+.interface-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.instruction-text{
+    color: #143157;
+    font-family: ABC Gravity Variable Unlicensed Trial;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.play-button{
+    display: flex;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    border-radius: 12px;
+    background: #143157;
+    border: 0;
+
+    color: #9EC9CC;
+    font-family: ABC Gravity Variable Unlicensed Trial;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+#player-1 {
+    position: absolute;
+}
+
+#player-2 {
+    position: absolute;
+}
